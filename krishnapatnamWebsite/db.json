@@ -1,0 +1,61 @@
+{
+  "register": [
+    {
+      "name": "kushal",
+      "mobile": 234567890,
+      "username": "kushal",
+      "password": "1",
+      "id": 1
+    }
+  ],
+  "images": [
+    {
+      "imgUrl":"https://b.zmtcdn.com/data/menus/521/18808521/f3b7b6ec0ebee306f4064db01c6712af.jpg?output-format=webp"
+    },
+    {
+      "imgUrl":"assets/images/menu2.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu3.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu4.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu5.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu7.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu8.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu9.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu2.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu3.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu4.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu5.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu7.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu8.avif"
+    },
+    {
+      "imgUrl":"assets/images/menu9.avif"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

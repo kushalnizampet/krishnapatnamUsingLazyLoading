@@ -1,0 +1,36 @@
+<!-- <a (click)="register()" style="cursor: pointer;">go back to register</a><br>
+<button (click)="loginuser()">login</button> -->
+<div class="container-fluid" style="background-color: #8f320b;">
+    <div class="row">
+     <div class="col-sm-6 mt-1 ms-2">
+         <div class="ms-5 mt-3 text-center" style="border: 1px solid #f7c913;">
+             <h1 class="fs-2 mt-5 mb-5" style="color: #87320e;background-color:  #f7c913;text-align: center;" tabindex="0">Registration</h1>
+             <form  #form="ngForm"  style="justify-content: center;" #formElement>
+                 <mat-form-field appearance="fill">
+                  <mat-label>Enter Your Name</mat-label>
+                  <input type="text"  matInput  #formElementChild name="name"   [(ngModel)]="this.registerObj.name" #name="ngModel" aria-label="Enter your Name" tabindex="-1">
+                </mat-form-field><br>
+                <mat-form-field appearance="fill">
+                  <mat-label>Enter Your Mobile Number</mat-label>
+                  <input type="number" matInput #formElementChild name="mobile"   [(ngModel)]="this.registerObj.mobile" #mobile="ngModel" aria-label="Enter Your Mobile Number" tabindex="0">
+                </mat-form-field><br>
+                <mat-form-field appearance="fill">
+                  <mat-label>Enter Your UserName</mat-label>
+                  <input type="text" matInput  #formElementChild name="username"  [(ngModel)]="this.registerObj.username" #username="ngModel" aria-label="Enter your UserName" tabindex="4">
+                </mat-form-field><br>
+                <mat-form-field appearance="fill">
+                  <mat-label>Enter Your Password</mat-label>
+                  <input type="text" matInput  #formElementChild name="password"  [(ngModel)]="this.registerObj.password" #password="ngModel" aria-label="Enter your password" tabindex="0">
+                </mat-form-field><br>
+           <button class="btn btn-warning mb-3 fw-bold" (click)="submitData()" style="cursor: pointer; " tabindex="0">Submit</button>
+           </form>
+             <a  style="cursor: pointer;" (click)="login()">
+             <p  class="mb-5 text-warning" tabindex="0">After Registration click here <span aria-hidden="true" tabindex="0">!!!!!</span></p>
+             </a>
+         </div>
+     </div>
+         <div class="col-sm-5 text-center">
+             <img src="https://www.indian-travel-places.com/wp-content/uploads/2019/11/krishnapatnam-jubilee-hills-hyderabad.png"  class="krishnapatnam-image" aria-label="krishnapatnam logo">
+        </div>
+    </div>
+ </div>

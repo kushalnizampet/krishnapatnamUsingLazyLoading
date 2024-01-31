@@ -1,0 +1,13 @@
+.viewport{
+    height: 400px;
+   
+}
+.container{
+    height: 400px;
+    width: 1500px;
+ 
+}
+.container::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
